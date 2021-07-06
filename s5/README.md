@@ -123,35 +123,56 @@ We have extracted 10 phrases (5 using merlin's demo voice and 5 using merlin's f
 # SYNTHESIS EVALUATION RESULTS - MOS CALCULATION
 ## DEMO VOICE
 * Intelligibility  
-    Phrase 1         Phrase 2        Phrase 3          Phrase 4          Phrase 5
-	member 1 >  2    member 1 > 2    member 1 > 1      member 1 > 1      member 1 > 2
-	member 2 >  2    member 2 > 2    member 2 > 1      member 2 > 1      member 2 > 2
-    member 3 >  2    member 3 > 2    member 3 > 2      member 3 > 2      member 3 > 2
-	MOS      >  2    MOS      > 2    MOS      > 1.33   MOS      > 1.33   MOS      > 2
-  
-   
-* Naturalness    
-    Phrase 1         Phrase 2        Phrase 3          Phrase 4           Phrase 5
-	member 1 >  1    member 1 > 1    member 1 > 1      member 1 > 1       member 1 > 2
-	member 2 >  1    member 2 > 1    member 2 > 1      member 2 > 1       member 2 > 2
-    member 3 >  1    member 3 > 1    member 3 > 1      member 3 > 1       member 3 > 2
-	MOS      >  1    MOS      > 1    MOS      > 1      MOS      > 1       MOS      > 2
+```
+Phrase 1         Phrase 2        Phrase 3          Phrase 4          Phrase 5
+----------------------------------------------------------------------------------
+member 1 >  2    member 1 > 2    member 1 > 1      member 1 > 1      member 1 > 2
 
+member 2 >  2    member 2 > 2    member 2 > 1      member 2 > 1      member 2 > 2
+
+member 3 >  2    member 3 > 2    member 3 > 2      member 3 > 2      member 3 > 2
+
+MOS      >  2    MOS      > 2    MOS      > 1.33   MOS      > 1.33   MOS      > 2
+```  
+   
+* Naturalness 
+```   
+Phrase 1         Phrase 2        Phrase 3          Phrase 4           Phrase 5
+----------------------------------------------------------------------------------
+member 1 >  1    member 1 > 1    member 1 > 1      member 1 > 1       member 1 > 2
+
+member 2 >  1    member 2 > 1    member 2 > 1      member 2 > 1       member 2 > 2
+
+member 3 >  1    member 3 > 1    member 3 > 1      member 3 > 1       member 3 > 2
+	
+MOS      >  1    MOS      > 1    MOS      > 1      MOS      > 1       MOS      > 2
+```
 ## FULL VOICE
 * Intelligibility  
-    Phrase 6         Phrase 7        Phrase 8          Phrase 9           Phrase 10
-	member 1 >  5    member 1 > 5    member 1 > 5      member 1 > 3       member 1 > 5
-	member 2 >  5    member 2 > 5    member 2 > 5      member 2 > 4       member 2 > 5
-    member 3 >  5    member 3 > 5    member 3 > 5      member 3 > 3       member 3 > 5
-	MOS      >  5    MOS      > 5    MOS      > 5      MOS      > 3.33    MOS      > 5
-  
+```
+Phrase 6         Phrase 7        Phrase 8          Phrase 9           Phrase 10
+----------------------------------------------------------------------------------
+member 1 >  5    member 1 > 5    member 1 > 5      member 1 > 3       member 1 > 5
+
+member 2 >  5    member 2 > 5    member 2 > 5      member 2 > 4       member 2 > 5
+
+member 3 >  5    member 3 > 5    member 3 > 5      member 3 > 3       member 3 > 5
+
+MOS      >  5    MOS      > 5    MOS      > 5      MOS      > 3.33    MOS      > 5'
+```  
    
-* Naturalness    
-  Phrase 6           Phrase 7        Phrase 8          Phrase 9           Phrase 10
-	member 1 >  4    member 1 > 4    member 1 > 4      member 1 > 3       member 1 > 4
-	member 2 >  4    member 2 > 4    member 2 > 4      member 2 > 3       member 2 > 4
-    member 3 >  4    member 3 > 4    member 3 > 4      member 3 > 3       member 3 > 4
-	MOS      >  4    MOS      > 4    MOS      > 4      MOS      > 3       MOS      > 4
+* Naturalness   
+``` 
+Phrase 6         Phrase 7        Phrase 8          Phrase 9           Phrase 10
+----------------------------------------------------------------------------------
+member 1 >  4    member 1 > 4    member 1 > 4      member 1 > 3       member 1 > 4
+
+member 2 >  4    member 2 > 4    member 2 > 4      member 2 > 3       member 2 > 4
+
+member 3 >  4    member 3 > 4    member 3 > 4      member 3 > 3       member 3 > 4
+
+MOS      >  4    MOS      > 4    MOS      > 4      MOS      > 3       MOS      > 4
+```
 
 # **SUGGESTIONS FOR MOS IMPROVEMENT**
 To improve MOS scores on intellibility, the system could be trained on speech with a natural flow without breaks in the synthesis signal.
